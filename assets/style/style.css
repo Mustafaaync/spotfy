@@ -3,15 +3,14 @@ body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
-
+*{
+    box-sizing: border-box;
+}
 #container{
     background-color:white;
     display: flex;
     flex-direction: row;
     height: 1000px
-}
-*{
-    box-sizing: border-box;
 }
 .container{
     background-color: #1d1d1d;
